@@ -4,8 +4,17 @@ import { FOOTER_DATA } from "@/constants";
 
 export const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]">
-      <div className="w-full flex flex-col items-center justify-center m-auto">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] relative overflow-hidden">
+      {/* Video Background */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-30"
+        src="/videos/bg-1.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+      <div className="w-full flex flex-col items-center justify-center m-auto relative z-10">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           {FOOTER_DATA.map((column) => (
             <div
@@ -21,16 +30,15 @@ export const Footer = () => {
                   rel="noreferrer noopener"
                   className="flex flex-row items-center my-[15px]"
                 >
-                  {Icon && <Icon />}
+                  {Icon ? <Icon /> : null}
                   <span className="text-[15px] ml-[6px]">{name}</span>
                 </Link>
               ))}
             </div>
           ))}
         </div>
-
         <div className="mb-[20px] mt-[20px] text-[15px] text-center">
-          &copy; John Doe {new Date().getFullYear()} Inc. All rights reserved.
+          &copy; TEDDYDAN {new Date().getFullYear()} Inc. All rights reserved.
         </div>
       </div>
     </div>

@@ -87,7 +87,7 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/bancushi_genixx/?next=%2F",
   },
   {
     name: "Facebook",
@@ -97,8 +97,14 @@ export const SOCIALS = [
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://x.com/bancushi?t=kheOPzhQ9qTdUb09PqKgaA&s=09",
   },
+  {
+        name: "GitHub",
+        icon: RxGithubLogo,
+        link: "https://github.com/TEDDYDAN2003?tab=repositories",
+   },
+
 ] as const;
 
 export const FRONTEND_SKILL = [
@@ -175,16 +181,16 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "🛒 Tekisky Mart – The Future of eCommerce",
+    title: "startupedia-- learn all the startup ideas from the best of the best",
     
-    image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    image: "/projects/startup.png",
+    link: "https://start-your-launchpad.vercel.app/",
   },
   {
-    title: "Tekisky – The Future of Tech",
+    title: "Neo dental clinic, the best facility in Eastleigh",
 
-    image: "/projects/project-2.webp",
-    link: "https://tekisky.com/",
+    image: "/projects/neo.png",
+    link: "https://neo-dental-clinic.vercel.app/",
   },
   {
     title: "Speedline Auto Parts – The Future of Auto Parts",
@@ -202,7 +208,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/TEDDYDAN2003?tab=repositories",
       },
 
     ],
@@ -214,7 +220,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        link: "https://www.linkedin.com/in/teddydan-mudanya-chunguli-4828022a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     ],
   },
@@ -225,7 +231,7 @@ export const FOOTER_DATA = [
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:arrahmanofficial9@gmail.com",
+        link: "mailto:teddydan2003@@gmail.com",
       },
     ],
   },
